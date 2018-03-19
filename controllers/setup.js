@@ -10,8 +10,10 @@ var util
 
 if (process.env.DYNO) {
 	util = require('../util-pg.js')
+	console.log('sam')
 } else {
 	util = require('../util-file.js')
+	console.log('sam1')
 }
 
 module.exports.get = function (req, res) {

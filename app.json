@@ -14,27 +14,27 @@
   "env": {
     "TWILIO_ACCOUNT_SID": {
       "description": "Your Twilio accountSid",
-      "value": "accountSid"
+      "value": "AC42b1dce42130261e8c7ebbc66be788a9"
     },
     "TWILIO_AUTH_TOKEN": {
       "description": "Your Twilio authToken",
-      "value": "authToken"
+      "value": "891ea618efab9dd534d0e46a55e7c0af"
     },
     "TWILIO_WORKSPACE_SID": {
       "description": "A Workspace is a container for your Tasks, Workers, TaskQueues. You can create it here: https://www.twilio.com/console/taskrouter/workspaces",
-      "value": "workspaceSid"
+      "value": "WSe32f9758af7e09a788d8e3fa1b9ee707"
     },
     "TWILIO_CHAT_SERVICE_SID": {
       "description": "A service instance where all the chat data is stored and scoped. You can create it here: https://www.twilio.com/console/chat/services",
-      "value": "chatServiceSid"
+      "value": "IS295883b0c5c84eed972cd952953bf72a"
     },
     "TWILIO_API_KEY_SID": {
       "description": "API Keys are revokable credentials for the Twilio API. You can create it here: https://www.twilio.com/console/dev-tools/api-keys",
-      "value": "apiKeySid"
+      "value": "SKd44ff9aa5cebdc9044a35367e7f3f654"
     },
     "TWILIO_API_KEY_SECRET": {
       "description": "API Keys are revokable credentials for the Twilio API.",
-      "value": "apiKeySecret"
+      "value": "KoHV1RIHty2j7rmLYwUI8cSrNfMvqR81"
     }
   }
 }
