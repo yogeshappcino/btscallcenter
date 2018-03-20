@@ -1,0 +1,229 @@
+.ninja-forms-replace {
+	background-color: #dfe4ea;
+	padding: 0 40px;
+	
+	margin-top: 20px;
+	margin-bottom: 80px;
+	display: block;
+	overflow: hidden
+}
+
+@media ( min-width :600px) {
+	.entry-hero-cases {
+		height: 590px;
+		background: 0 0
+	}
+}
+
+.box-form .lead-form .submit-wrap .entry-hero-cases input:hover,
+	.box-form .ninja-forms-all-fields-wrap .submit-wrap .entry-hero-cases input:hover,
+	.comment-form .entry-hero-cases input[type=submit]:hover,
+	.entry-hero-cases .box-form .lead-form .submit-wrap input:hover,
+	.entry-hero-cases .box-form .ninja-forms-all-fields-wrap .submit-wrap input:hover,
+	.entry-hero-cases .btn:hover, .entry-hero-cases .comment-form input[type=submit]:hover
+	{
+	background-color: #fff;
+	color: #00a1e0
+}
+
+.cases-title {
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 60px;
+	margin-bottom: 0
+}
+
+@media ( max-width :992px) {
+	.cases-title {
+		font-size: 32px;
+		line-height: 38px
+	}
+}
+
+.cases-content .cases-title {
+	margin-top: -160px;
+	background: #fff;
+	padding: 50px;
+	font-size: 48px;
+	line-height: 52px
+}
+
+.cases-subtitle {
+	font-size: 22px
+}
+
+.cases-box {
+	margin-bottom: 120px;
+	position: relative;
+	background: #f6f6f6;
+	border-radius: 5px;
+	box-shadow: 20px 20px 80px 0 rgba(214, 220, 225, .6);
+	overflow: hidden
+}
+
+.cases-box a {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-decoration: none;
+	position: relative
+}
+
+.cases-box.col-xs-12 a {
+	padding-left: 400px
+}
+
+.box-form .lead-form .submit-wrap input, .box-form .ninja-forms-all-fields-wrap .submit-wrap input,
+	.btn, .comment-form input[type=submit] {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 10px 25px;
+	text-transform: capitalize;
+	border: 0;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 400;
+	cursor: pointer;
+	outline: 0;
+	transition: all .15s ease-in-out
+}
+
+.box-form .lead-form .submit-wrap input, .box-form .ninja-forms-all-fields-wrap .submit-wrap input,
+	.btn.primary, .comment-form input.primary[type=submit] {
+	background: #ff6837;
+	color: #fff
+}
+
+.box-form .lead-form .submit-wrap input:hover, .box-form .ninja-forms-all-fields-wrap .submit-wrap input:hover,
+	.btn.primary:hover, .comment-form input.primary[type=submit]:hover {
+	background: #ff551e
+}
+
+.box-form .lead-form .submit-wrap input.alternative, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.alternative,
+	.btn.alternative, .comment-form input.alternative[type=submit] {
+	background: #fff;
+	color: #3a4154
+}
+
+.box-form .lead-form .submit-wrap input.alternative:hover, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.alternative:hover,
+	.btn.alternative:hover, .comment-form input.alternative[type=submit]:hover
+	{
+	background: #f2f2f2
+}
+
+.box-form .lead-form .submit-wrap input.success, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.success,
+	.btn.success, .comment-form input.success[type=submit] {
+	background: #3bdc96;
+	color: #fff
+}
+
+.box-form .lead-form .submit-wrap input.success:hover, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.success:hover,
+	.btn.success:hover, .comment-form input.success[type=submit]:hover {
+	background: #26d78a
+}
+
+.box-form .lead-form .submit-wrap input.alternative-blue, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.alternative-blue,
+	.btn.alternative-blue, .comment-form input.alternative-blue[type=submit]
+	{
+	background: #3a4154;
+	color: #fff
+}
+
+.box-form .lead-form .submit-wrap input.alternative-blue:hover,
+	.box-form .ninja-forms-all-fields-wrap .submit-wrap input.alternative-blue:hover,
+	.btn.alternative-blue:hover, .comment-form input.alternative-blue[type=submit]:hover
+	{
+	background: #303545
+}
+
+.box-form .lead-form .submit-wrap input.secondary, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.secondary,
+	.btn.secondary, .comment-form input[type=submit] {
+	background: #00a1e0;
+	color: #fff
+}
+
+.box-form .lead-form .submit-wrap input.secondary:hover, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.secondary:hover,
+	.btn.secondary:hover, .comment-form input[type=submit]:hover {
+	background: #008fc7
+}
+
+.box-form .lead-form .submit-wrap input.outline, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.outline,
+	.btn.outline, .comment-form input.outline[type=submit] {
+	text-transform: none;
+	letter-spacing: normal
+}
+
+.box-form .lead-form .submit-wrap input.outline.alternative, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.outline.alternative,
+	.btn.outline.alternative, .comment-form input.outline.alternative[type=submit]
+	{
+	border: solid 1px currentcolor;
+	background: 0 0;
+	color: #fff
+}
+
+.box-form .lead-form .submit-wrap input.outline.alternative:hover,
+	.box-form .ninja-forms-all-fields-wrap .submit-wrap input.outline.alternative:hover,
+	.btn.outline.alternative:hover, .comment-form input.outline.alternative[type=submit]:hover
+	{
+	color: #ff6837
+}
+
+.box-form .lead-form .submit-wrap input.outlined, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.outlined,
+	.btn.outlined, .comment-form input.outlined[type=submit] {
+	border: solid 1px currentcolor;
+	background: 0 0;
+	color: #fff
+}
+
+.box-form .lead-form .submit-wrap input.outlined.secondary, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.outlined.secondary,
+	.btn.outlined.secondary, .comment-form input.outlined[type=submit] {
+	color: #00a1e0
+}
+
+.box-form .lead-form .submit-wrap input.outlined.secondary:hover,
+	.box-form .ninja-forms-all-fields-wrap .submit-wrap input.outlined.secondary:hover,
+	.btn.outlined.secondary:hover, .comment-form input.outlined[type=submit]:hover
+	{
+	background: #00a1e0;
+	color: #fff
+}
+
+.box-form .lead-form .submit-wrap input.btn-lg, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.btn-lg,
+	.btn.btn-lg, .comment-form input.btn-lg[type=submit] {
+	padding: 7px 30px !important;
+	height: initial !important
+}
+
+.box-form .lead-form .submit-wrap input.btn-small, .box-form .ninja-forms-all-fields-wrap .submit-wrap input.btn-small,
+	.btn.btn-small, .comment-form input.btn-small[type=submit] {
+	padding: 7px 15px !important;
+	height: initial !important;
+	font-size: 14px !important
+}
+
+.box-form .lead-form .number-wrap input:not([type=submit]), .box-form .lead-form .text-wrap input:not([type=submit]), .box-form .lead-form .textarea-wrap input:not([type=submit]), .box-form .lead-form .tf-input-text, .box-form .ninja-forms-all-fields-wrap .number-wrap input:not([type=submit]), .box-form .ninja-forms-all-fields-wrap .text-wrap input:not([type=submit]), .box-form .ninja-forms-all-fields-wrap .textarea-wrap input:not([type=submit]), .box-form .ninja-forms-all-fields-wrap .tf-input-text {
+    border-radius: 5px;
+    width: 100%;
+    padding: 4px;
+    border: 0;
+    background: #fff;
+    font-size: 18px;
+    color: #3a4154;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15) !important;
+    margin-left: 0;
+}
+
+.box-form .lead-form .submit-wrap input, .box-form .ninja-forms-all-fields-wrap .submit-wrap input, .btn, .comment-form input[type=submit] {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: 0;
+    transition: all .15s ease-in-out;
+}
