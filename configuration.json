@@ -1,6 +1,6 @@
 {
 	"ivr": {
-		"text": "Thanks for calling. You can press a key or say the department name. Press 1 for Sales, press 2 for Support",
+		"text": "Takk for at du ringte. Velkommen til BTS Ferde Helpdesk. Du kan trykke på en tast eller si avdelingsnavnet. Trykk 1 for Salg, trykk 2 for Støtte",
 		"options": [
 			{
 				"friendlyName": "Sales",
