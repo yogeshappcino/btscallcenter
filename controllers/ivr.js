@@ -24,9 +24,15 @@ module.exports.welcome = function (req, res) {
 		hints: keywords.join()
 	}) //en-US
 
-	gather.say(req.configuration.voice,req.configuration.ivr.text)
+	gather.say({
+	    voice: 'alice',
+	    language: 'nb-NO',
+	  },req.configuration.ivr.text)
 
-	twiml.say(req.configuration.voice,'Du sa ikke noe eller angir noen siffer.')
+	twiml.say({
+	    voice: 'alice',
+	    language: 'nb-NO',
+	  },'Du sa ikke noe eller angir noen siffer.')
 	twiml.pause({length: 2})
 	twiml.redirect({method: 'GET'}, 'welcome')
 
