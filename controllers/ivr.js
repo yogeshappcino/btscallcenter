@@ -1,7 +1,7 @@
 const Twilio 	= require('twilio')
 
 const taskrouterHelper = require('./helpers/taskrouter-helper.js')
-global.voice_settings = "{voice: 'woman',language: 'no'}";
+const voice_settings = "{voice: 'woman',language: 'no'}";
 
 module.exports.welcome = function (req, res) {
 	const twiml =  new Twilio.twiml.VoiceResponse()
