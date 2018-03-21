@@ -25,12 +25,12 @@ module.exports.welcome = function (req, res) {
 	}) //en-US
 
 	gather.say({
-	    voice: 'woman',
+	    voice: 'alice',
 	    language: 'nb-NO',
 	  },req.configuration.ivr.text)
 
 	twiml.say({
-	    voice: 'woman',
+	    voice: 'alice',
 	    language: 'nb-NO',
 	  },'Du sa ikke noe eller angir noen siffer.')
 	twiml.pause({length: 2})
@@ -79,7 +79,7 @@ module.exports.selectTeam = function (req, res) {
 	/* the caller pressed a key that does not match any team */
 	if (team === null) {
 		// redirect the call to the previous twiml
-		twiml.say({voice: 'woman',language: 'nb-NO'},'Ditt valg var ikke gyldig, prøv igjen.')
+		twiml.say({voice: 'alice',language: 'nb-NO'},'Ditt valg var ikke gyldig, prøv igjen.')
 		twiml.pause({length: 2})
 		twiml.redirect({ method: 'GET' }, 'welcome')
 	} else {
@@ -91,7 +91,7 @@ module.exports.selectTeam = function (req, res) {
 			timeout: 5
 		})
 
-		gather.say({voice: 'woman',language: 'nb-NO'},'Trykk på en tast hvis du vil ha tilbakering fra ' + team.friendlyName + ', Eller bli på linjen.')
+		gather.say({voice: 'alice',language: 'nb-NO'},'Trykk på en tast hvis du vil ha tilbakering fra ' + team.friendlyName + ', Eller bli på linjen.')
 
 		/* create task attributes */
 		const attributes = {
@@ -129,10 +129,10 @@ module.exports.createTask = function (req, res) {
 
 	taskrouterHelper.createTask(req.configuration.twilio.workflowSid, attributes)
 		.then(task => {
-			twiml.say({voice: 'woman',language: 'nb-NO'},'Takk for tilbakeringingsanmodningen din, En agent vil ringe deg tilbake snart.')
+			twiml.say({voice: 'alice',language: 'nb-NO'},'Takk for tilbakeringingsanmodningen din, En agent vil ringe deg tilbake snart.')
 			twiml.hangup()
 		}).catch(error => {
-			twiml.say({voice: 'woman',language: 'nb-NO'},'beklager, farvel!') //sorry bye //'An application error occured, the demo ends now'
+			twiml.say({voice: 'alice',language: 'nb-NO'},'beklager, farvel!') //sorry bye //'An application error occured, the demo ends now'
 		}).then(() => {
 			res.send(twiml.toString())
 		})
